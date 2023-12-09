@@ -27,12 +27,12 @@
 			<div class="header">
 				<div class="h-wrapper">
 
-					<a class="page-buttons" href="#"  onclick="showComponent('home')">HOME</a>
+					<a class="chbutton" href="#"  onclick="showComponent('home')">HOME</a>
 
 
-					<img class="logo" src="images/logo.svg" alt="">
+					<img class="logo" src="images/logo.svg" id="logo" alt="">
 
-					<a class="page-buttons" href="#" onclick="showComponent('watch')">Watch</a>
+					<a class="chbutton" href="#" onclick="showComponent('watch')">WATCH</a>
 				</div>
 
 
@@ -52,12 +52,12 @@
             </div>
     
             <div class="latest-sub mt-3 mb-3">
-                <a target="_blank" href="https://www.youtube.com/@BabyFrogTV">
-                <div class="latest-youtube">
-                    <span>Subscribe</span>
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+                <!-- <div class="latest-youtube">
+                    <span class="chbutton">Subscribe</span>
     
     
-                </div>
+                </div> -->
             </a>
     
             </div>
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <button class="page-buttons px-5" type="submit" required="">Send
+                            <button class="chbutton px-5" type="submit" required="">Send
                                 Message</button>
                         </div>
                     
@@ -207,45 +207,189 @@
     </div>
 
     <div id="watch" class="component" style="display: none;">
-        <div style="background-color: #333;"
+        <!-- <div style="background-color: #333;"
         class="elfsight-app-843ecb65-e49e-4e74-9233-317493fb063c" 
        data-elfsight-app-lazy>
        
-       </div>
+       </div> -->
+       <div class="second-section">
+       <div class="latest-img">
+        <img style="width: 60px; height: 60px;" src="121212.png" alt="">
     </div>
-    <footer class="main-footer">
-        <div class="container">
-            <div class="f-wrapper">
-                <!-- <span>© Baby Frog TV 2023</span>
-                <a href=""></a> -->
-                <img src="images/logo.svg" alt="">
-                <div class="social">
-					<div class="s-links">
-						<a target="_blank" href="https://www.youtube.com/channel/UC2i4iL8IrqmQ-aSmuBPdaAA"><img src="images/icons8-youtube (2).svg" alt=""></a>
-						<a class="s-name" target="_blank" href="https://www.youtube.com/channel/UC2i4iL8IrqmQ-aSmuBPdaAA"><span>Youtube channel</span></a>
-					</div>
-					<div class="s-links">
-						<a href="https://www.instagram.com/babyfrogtv/"><img src="images/icons8-instagram.svg" alt=""></a>
-						<a class="s-name" href="https://www.instagram.com/babyfrogtv/"><span>Instagram</span></a>
-					</div>
-					<div class="s-links">
-						<a href="https://www.tiktok.com/@babyfrogtv"><img src="images/icons8-tiktok.svg" alt=""></a>
-						<a class="s-name" href="https://www.tiktok.com/@babyfrogtv"><span>Tik Tok</span></a>
-					</div>
+
+    
+
+    <div class="latest-sub mt-3 mb-3">
+        <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+        <!-- <div class="latest-youtube">
+            <span>Subscribe</span>
 
 
+        </div> -->
+    </a>
 
-
-				</div>
-
-
-
-            </div>
-
-
+    </div>
+    <article class="video-sec-wrap">
+        <div class="video-sec">
+            <h4>Baby Frog TV | All Videos</h4>
+            <ul class="video-sec-middle" id="vid-grid">
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                        src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA" frameborder="0"></iframe>
+                    
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=2" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=2" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=3" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=4" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=5" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=6" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=7" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=8" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=9" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=10" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=11" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=12" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=13" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=14" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=15" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=16" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=17" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=18" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=19" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=20" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=21" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=22" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=23" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=24" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=25" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=26" frameborder="0"></iframe>
+                </a></li>
+                <li class="thumb-wrap"><a href="">
+                    <iframe style="width: 100%; height: 220px;"
+                    src="https://www.youtube.com/embed?list=UULF2i4iL8IrqmQ-aSmuBPdaAA&index=27" frameborder="0"></iframe>
+                </a></li>
+                
+            </ul>
+            
         </div>
+    </article>
+</div>
 
-    </footer>
+
+    
+    </div>
+    
+
+
+   
+
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/@BabyFrogTV">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.tiktok.com/@babyfrogtv">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/babyfrogtv">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#logo">Back top</a></li>
+         
+          
+    
+        </ul>
+        <p>&copy;2021 Baby Frog TV | All Rights Reserved</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    
 
     <script src="jquery.min.js"></script>
