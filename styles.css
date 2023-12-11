@@ -208,6 +208,8 @@ h1 {
 
 /* second section index */
 
+
+
 .second-section {
 	width: 100%;
 	height: auto;
@@ -216,6 +218,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	padding: 30px;
+	padding-top: 0;
 
 
 }
@@ -926,18 +929,31 @@ button {
 }
 
 .learn-content {
-	background-color: #5bcca0;
-	height: 80px;
-	box-shadow: 1px 0px 174px 21px rgba(235, 139, 84, 0.75) inset;
-	-webkit-box-shadow: 1px 0px 174px 21px rgba(235, 139, 84, 0.75) inset;
-	-moz-box-shadow: 1px 0px 174px 21px rgba(235, 139, 84, 0.75) inset;
+	background-color: #333;
+	
+	
 	position: relative;
 	z-index: 100;
 
 	display: flex;
 	justify-content: space-around;
 }
+#diva{
+	display: none;
+}
 
+#navigation{
+	display: flex;
+	overflow: auto;
+}
+.name-category{
+	width: 100%;
+	background: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
 
 .start-game {
 	/* font-size: 1.1em;

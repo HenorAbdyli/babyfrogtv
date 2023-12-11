@@ -1,53 +1,32 @@
-$(document).ready(function () {
-  
-  $('.slider-for').slick({
-    
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    dots: true,
-    customPaging : function(slider, i) {
-      var thumb = $(slider.$slides[i]).data();
-      return '<a class="dot">'+i+'</a>';
-              },
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-    
-  });
 
- 
+// function showComponent(componentId) {
+//     var components = document.getElementsByClassName('component');
+//     for (var i = 0; i < components.length; i++) {
+//         components[i].style.display = 'none';
+//     }
 
-});
-
-
-
+//     var selectedComponent = document.getElementById(componentId);
+//     if (selectedComponent) {
+//         selectedComponent.style.display = 'block';
+//     }
+// }
 function showComponent(componentId) {
-    var components = document.getElementsByClassName('component');
-    for (var i = 0; i < components.length; i++) {
-        components[i].style.display = 'none';
-    }
+  var components = document.getElementsByClassName('component');
 
-    var selectedComponent = document.getElementById(componentId);
-    if (selectedComponent) {
-        selectedComponent.style.display = 'block';
-    }
+  for (var i = 0; i < components.length; i++) {
+      components[i].style.display = 'none';
+  }
+
+  var selectedComponent = document.getElementById(componentId);
+  if (selectedComponent) {
+      selectedComponent.style.display = 'block';
+  }
+
+  // Hide the navigation when 'watch' is selected
+  var navigationComponent = document.getElementById('navigation');
+  if (componentId === 'watch') {
+      navigationComponent.style.display = 'none';
+  } else {
+      navigationComponent.style.display = 'flex';
+  }
 }
-
