@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Baby Frog TV</title>
+    <!--Meta Tag-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!--Bootstrap Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Slick Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css" />
+    <!-- lightbox -->
+
+    <!--Cascading Style Sheet -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- cookiepopup -->
+    <div class="wrapper">
+        <header class="cookie-border">
+
+            <h3>Cookies Consent</h3>
+        </header>
+        <div class="data cookie-border">
+            <p>This website use cookies to help you have a superior and more relevant browsing experience on the
+                website.</p>
+        </div>
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Accept</button>
+            <button class="button" id="declineBtn">Decline</button>
+        </div>
+    </div>
+
+
+    <section class="main-section fadeIn">
+        <div class="container">
+            <div class="header">
+                <div class="h-wrapper">
+
+                    <a class="chbutton" href="#" onclick="showComponent('home')">Home</a>
+
+
+                    <img class="logo" src="images/logo.svg" id="logo" alt="">
+
+                    <a class="chbutton" href="#" onclick="showComponent('watch')">Contact</a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <div id="navigation" class="component pt-3 fadeIn" style="background: #333;">
+        <a class="allVideoButton" href="#" onclick="showComponent('home')">AllVideos</a>
+        <a class="chrismasButton" href="#" onclick="showComponent('playlist')">Chrismas</a>
+        <a class="bedtimeButton" href="#" onclick="showComponent('bedtime')">FairyTale</a>
+        <a class="oceanButton" href="#" onclick="showComponent('ocean')">Ocean</a>
+        <a class="animalsButton" href="#" onclick="showComponent('animals')">Animals</a>
+        <a class="sleepButton" href="#" onclick="showComponent('sleepsong')">Sleepsong</a>
+        <a class="learningButton" href="#" onclick="showComponent('learning')">Learning</a>
+    </div>
+
+    <div id="learning" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+
+
+            <div class="learning fadeIn">
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div id="sleepsong" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+            <div class="sleepsong fadeIn">
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div id="animals" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+            <div class="animals fadeIn">
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div id="ocean" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+            <div class="ocean fadeIn">
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div id="bedtime" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+            <div class="bedtime fadeIn">
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <div id="playlist" class="component" style="display:none;">
+
+        <div class="second-section fadeIn">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+            <div class="chrismas fadeIn">
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div id="home" class="component">
+
+
+
+
+
+        <div class="second-section fadeIn" style="border-radius: 0; box-shadow: none; border: none;">
+            <div class="latest-img">
+                <img style="width: 60px; height: 60px;" src="121212.png" alt="">
+            </div>
+
+
+
+            <div class="latest-sub mt-3 mb-3">
+                <a class="chbutton" target="_blank" href="https://www.youtube.com/@BabyFrogTV">Subscribe
+
+                </a>
+
+            </div>
+
+            <article class="article">
+
+            </article>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div id="watch" class="component" style="display: none;">
+
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s"
+                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <div class="p-lg-5 ps-lg-0">
+
+                    <h1 class="mb-4 text-dark text-center">Feel Free To Contact Us</h1>
+
+
+                    <form action="https://formspree.io/f/xaygzlev" method="post" class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="Name" placeholder="Your Name" required="">
+                                <label for="name" required="">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" name="Email" placeholder="Your Email"
+                                    required="">
+                                <label for="email" required="">Your Email</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" name="Message"
+                                    style="height: 100px" required=""></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="chbutton px-5" type="submit" required="">Send
+                                Message</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <footer class="footer chbutton" style="border-radius: 0;">
+
+        <ul class="social-icon">
+
+            <li class="social-icon__item"><a class="social-icon__link"
+                    href="https://www.facebook.com/profile.php?id=61554198852589">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/@BabyFrogTV">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.tiktok.com/@babyfrogtv">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/babyfrogtv">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#logo">Back top</a></li>
+
+
+
+        </ul>
+        <p>&copy;2021 Baby Frog TV | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="jquery.min.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Slick Scripts -->
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

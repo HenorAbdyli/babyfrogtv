@@ -1,0 +1,17 @@
+api key : AIzaSyBOcdzQVdTPG3f8qDoxY7p4ri2Y41OumeE
+
+channel id : UC2i4iL8IrqmQ-aSmuBPdaAA
+
+uploads : UU2i4iL8IrqmQ-aSmuBPdaAA
+
+url:  https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=15&playlistId=UU2i4iL8IrqmQ-aSmuBPdaAA&key=AIzaSyBOcdzQVdTPG3f8qDoxY7p4ri2Y41OumeE
+
+curl \
+  'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLm8d7n0hfyyTljXjaXsnVU4mWlC6omM7Z&key=[YOUR_API_KEY]' \
+  --header 'Authorization: Bearer [YOUR_ACCESS_TOKEN]' \
+  --header 'Accept: application/json' \
+  --compressed
+
+
+
+https://www.youtube.com/watch?v=xCRW9CYkjmc
